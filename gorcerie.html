@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Liste d'Articles</title>
+  <link rel="stylesheet" href="gorcerie.css">
+</head>
+<body>
+
+  <!-- Champ texte pour saisir un article -->
+  <input type="text" id="articleInput" placeholder="Saisir un article">
+
+  <!-- Bouton Ajouter -->
+  <button id="addButton">Ajouter</button>
+
+  <!-- Champ de recherche pour filtrer les articles -->
+  <input type="text" id="searchInput" placeholder="Rechercher un article">
+
+  <table id="articleTable"  style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Article</th>
+      </tr>
+    </thead>
+    <tbody id="articleTableBody">
+      <!-- Les articles seront ajoutés ici -->
+    </tbody>
+  </table>
+
+  <!-- Bouton pour vider la liste -->
+  <button id="clearButton">Vider la liste</button>
+<!-- pour renvoyer les message -->
+  <span id="message"></span>
+
+
+  <!-- Zone pour afficher une traduction -->
+  <div id="translationArea"></div>
+<script src="gorcerie.js"></script>
+</body>
+</html>
